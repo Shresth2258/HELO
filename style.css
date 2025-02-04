@@ -103,21 +103,77 @@ p{
 @media(max-width:500px){
     .container{
         display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
         border-radius: 10px;
         font-family: "Lexend Deca", serif;
-        overflow: hidden;
+        /* overflow: hidden; */
         position: relative;
         margin: auto; 
         inset: 0px; 
         margin-top: 185px;
         /* max-width: 200px; */
-        width: 1200px;
+        width: 50vb;
         /* min-height: 10em; */
-        height: 400px;
+        height: 100vh;
         background-color: #1C1938;
         box-shadow: 10px 15px 200px 10px #1C1938;
         justify-content: space-between;
+        
     }
+    img{
+        position: relative;
+        width: 400px;
+    }
+
+
+    p{
+        color: whitesmoke;
+        font-size: 16px;
+        margin-top: 20px;
+        /* text-align: center; */
+        margin-right: 40px;
+        margin-left: 120px;
+        opacity: 0.5;
+        line-height: 2;
+    }
+
+    h1{
+        font-size: x-large;
+        /* margin-left: 10px; */
+        margin-top: 40px;
+        /* margin-right: 110px; */
+
+        color: aliceblue;
+        justify-self: unset;
+    }
+
+    .span{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .span .span1{
+        /* display: flex; */
+        color: aliceblue;
+        margin-top: 78px;
+        margin-left: -370px;
+        justify-content: space-between;
+    }
+    
+    .span .span2{
+        color: aliceblue;
+        margin-top: 78px;
+        margin-left: 85px;
+        justify-content: space-between;
+    }
+    
+    .span .span3{
+        color: aliceblue;
+        margin-top: 78px;
+        margin-left: 73px;
+        justify-content: space-between;
+    }
+    
+    
 }
